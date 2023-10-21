@@ -8,9 +8,9 @@ This week, we covered the importance of a great technical portfolio to help you 
 
 Spend time looking at other developer’s portfolios. Submit the links to three portfolios you will use for inspiration.
 
-1.
-2.
-3.
+1. https://www.onyedika.xyz/
+2. https://www.adhamdannaway.com/
+3. https://itssharl.ee/
 
 ### GitHub
 
