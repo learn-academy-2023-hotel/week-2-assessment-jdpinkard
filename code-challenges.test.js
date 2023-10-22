@@ -52,15 +52,22 @@ const object3 = { number: -7 }
 // create a conditional statement that evaluates whether the object.number is evenly divisble by 3 or not
 // returns true or false
 
-const div3 = (object) => {
-    if (object % 3 === 0) {
-        return true
-    } else {
-        return false
-    }
-}
+// const div3 = (number) => {
+//     if (number % 3 === 0) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// I redid this one in the shorter form for practice.
+
+const div3 = (number) => number % 3 === 0
 
 console.log(div3(object1.number))
+
+
+
 
 
 // --------------------2) Create a function that takes in an array of words and returns an array with all the words capitalized.
@@ -104,3 +111,13 @@ const capWords = (array) => {
     })
 }
 console.log(capWords(randomNouns1))
+
+// Had one of my friends who is a senior javascript developer look at this because I wanted a greater understanding of .filter() and I wanted to make sure it couldn't be applied. She explained .filter() can only be truth or falsey statements, and I couldn't run two different conditions like I do with the if/else conditional statement. She did however mention trying .slice() instead. This is what I came up with.
+
+// const capWords = (array) => {
+//     return array.map((string) => {
+//         return string.slice(0,1).toUpperCase() + string.slice(1)
+//     })
+// }
+
+// I think .slice() makes this look a lot cleaner.

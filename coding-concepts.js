@@ -22,7 +22,7 @@ const greeter = (name) => {
 console.log(greeter("LEARN Student"))
 
 // a) Your answer:'Hello, LEARN Student'
-// b) Verify and explain: I was wrong. My assumption would be because it is not expecting a primitive value, but an object containing a value.
+// b) Verify and explain: I was wrong. Didn't realize it didn't have a return. Functions ALWAYS need a return unless it's written in the short form. No return = Undefined
 
 // --------------------3) What will this log?
 
